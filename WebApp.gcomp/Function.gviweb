@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6448EA6510E8285B03CA8481149FE9EF2CBEF8CB7F2705A35B66B1851DAB04F99A276A1C46574EDB5220C2792C9FF7BC8AC302F416B033A86BF9AAE604CBCEEE" Timestamp="1D88CC961E682AC" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BE1C1470A9C94CE3DBE5C2F831B9091AFCC22A5BE23CEDEECABD8C0FC2ED5080CDA4D40CBEFDCEAA9C1704DC85A01B6B4F31EF1DFDFE8EC87FD407FFC96F60F9" Timestamp="1D893071DF6865C" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -19,7 +19,7 @@
 				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 28,0" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff2b3033" Height="[float]0" Id="87232ccb4c1849c882e9a9d376558af5" Left="[float]4" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]1" Top="[float]23" Width="[float]28" />
 				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 0,10" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff2b3033" Id="525a79c4120f4dc79e21d06c1d867da2" Left="[float]5" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]1" Top="[float]18" Width="[float]0" />
 				<Line ArrowLocation="[ArrowLocation]None" Data="[PathGeometry]M 0,0 L 0,10" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff2b3033" Id="96223e976a1048fd9201928f04353404" Left="[float]32" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ffffffff" StrokeThickness="[float]1" Top="[float]18" Width="[float]0" />
-				<Text Height="[float]16" Id="c6bb1f7b06244f0bb47d4b3a804a41d7" Left="[float]2" Text="[string]0 ?s 1" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]2" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]30">
+				<Text Height="[float]16" Id="c6bb1f7b06244f0bb47d4b3a804a41d7" Left="[float]2" Text="[string]0 ?s  1" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]2" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]34">
 					<FontSetting FontFamily="Segoe UI" FontSize="9" Id="510d2a6ad98a41d4aa9a1cf477e10b7e" />
 				</Text>
 			</IconPanel>

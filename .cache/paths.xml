@@ -95,4 +95,36 @@
 			<string>ni-g-stdlib-src-1.0.6.45.niaddoncache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Color Picker_2b3e0eaa39734289913cc550d83f63ce_5771446c13084774a08f6472ecbd9f30.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Color Picker.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core_f720d3fc2cc4735a2b91d1de7ab23ca_5771446c13084774a08f6472ecbd9f30.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Error_78745185e3294de397e9b4b977f08ad4_f720d3fc2cc4735a2b91d1de7ab23ca_5771446c13084774a08f6472ecbd9f30.gtypecache</string>
+		</key>
+		<value>
+			<string>Error.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Color_20_2b3e0eaa39734289913cc550d83f63ce_5771446c13084774a08f6472ecbd9f30.gtypecache</string>
+		</key>
+		<value>
+			<string>Color.gtypecache</string>
+		</value>
+	</item>
 </SerializableDictionary>
