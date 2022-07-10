@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="DC47DB896A4A8D5E0A97D962BD418B587277E2BAEDBFE51A40060E0FCF133BA17E438D6D8F546CBEAF227A7466122822D1B1BE50763EE15D3BA8460C20C8CC3C" Timestamp="1D89459BD30FCF2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A4604ABA718A4DA012335853000E7DFD0DAE8BFF05337587A54E357C29BB5ADF37982CB3291282DBA5FC6CFB5B9770A0D1A5F192AC09A1C07807B03BEF9CBBBD" Timestamp="1D8945AAEF37D79" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -58,8 +58,8 @@
 				<DataAccessor Bounds="520 85 40 15" DataItem="4170f3d710ef464c9359e5fd9616ee28" Id="cc7c444ed54c48029f0e4b89661886c5" Label="22ace5440d5648339368f188e5323d11" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="cc7c444ed54c48029f0e4b89661886c5" Bounds="565 85 92 14" Id="22ace5440d5648339368f188e5323d11" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>"temperatur graf "</p.Text>
+				<NodeLabel AttachedTo="cc7c444ed54c48029f0e4b89661886c5" Bounds="565 85 31 14" Id="22ace5440d5648339368f188e5323d11" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Chart</p.Text>
 				</NodeLabel>
 				<Add Bounds="470 190 30 30" Id="165163bf60c446a7ba7123f862805052" Terminals="o=2db1dfcd27c4a6582b3d5056cf097a0, c0t0v=bf1811de6a60491cbd6176526b957d9f, c1t0v=7f78583cb9d74d21bbf71b25f2232980" />
 				<Wait Bounds="715 470 40 40" Id="4d02cad931294bd2a825a48eaec275b5" />
@@ -422,7 +422,7 @@
 				<NodeLabel AttachedTo="4f8d181f292b4d76ba054a25ce8b348e" Bounds="22 545 33 14" Id="e58be0e44af491ca4c5db05d066368b" xmlns="http://www.ni.com/PlatformFramework">
 					<p.Text>Pause</p.Text>
 				</NodeLabel>
-				<Wire Id="2db1dfcd27c4a6582b3d5056cf097a0" Joints="N(165163bf60c446a7ba7123f862805052:o)|(500,205) h(5) B(1) h(5) v(-40) B(3) N(e796722a7e604f219d759c043feda80d:Value)|(528,165) B(3) v(-40) B(5) N(6e5b90a320cf4df4b7ca2d3a578f4e0d:Value)|(523,125) B(5) v(-35) N(cc7c444ed54c48029f0e4b89661886c5:Value)|(523,90) B(1) v(10) N(b07a45e638754abda9c3cde16bb81718:x)|(560,215)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="2db1dfcd27c4a6582b3d5056cf097a0" Joints="N(165163bf60c446a7ba7123f862805052:o)|(500,205) h(5) B(1) h(5) v(-45) B(3) N(13dcd3cc0d7d4356a0bc2c0f69b0e160:Value)|(548,160) B(3) v(-35) B(5) N(6e5b90a320cf4df4b7ca2d3a578f4e0d:Value)|(523,125) B(5) v(-35) N(cc7c444ed54c48029f0e4b89661886c5:Value)|(523,90) B(1) v(10) N(b07a45e638754abda9c3cde16bb81718:x)|(560,215)" xmlns="http://www.ni.com/PlatformFramework" />
 				<CaseStructure Bounds="460 465 115 70" Default="fbad6f110a894aaab5d6d74d0376bd39" Id="5a73e428ca7c4aaba28ce8c963b05a15" Selected="e64dcdcda5914b04be9580f645afeeba" UserSelectorBounds="14 0 88 17">
 					<CaseStructure.Case Bounds="5 5 105 60" Id="fbad6f110a894aaab5d6d74d0376bd39" Pattern="False">
 						<Literal Bounds="30 25 40 15" DataType="Double" Id="aa68302111ff4f72affc94a1b0cfdef5" xmlns="http://www.ni.com/MocCommon">
@@ -465,11 +465,11 @@
 				<ControlReference Bounds="120 205 65 20" Id="52272d888dac43278449205ab70bffc7" SourceControl="4a3165443ff747bca23690148dac00df" />
 				<Wire Id="56ecba67f7d34882b09e3e2ad189b1f2" Joints="N(52272d888dac43278449205ab70bffc7:control reference)|(185,210) h(6) v(20) N(d63663dba1eb4bba8ab73c12a4fc2ff0:instance in)|(225,230)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="309175c756da478da3e504c04e13b604" Joints="N(db6e7f75836c4383ad77cdd796683727:x &lt; y?)|(100,230) h(45) v(20) N(d63663dba1eb4bba8ab73c12a4fc2ff0:c0t0v)|(225,250)" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="525 160 40 15" DataItem="d13f7f6a7b024680b587e52203d59a32" Id="e796722a7e604f219d759c043feda80d" Label="e61c46fbb5b649caaf641da4c41b8035" xmlns="http://www.ni.com/MocCommon">
+				<DataAccessor Bounds="545 155 40 15" DataItem="4306d698ce0c479eb679e4800dd89500" Id="13dcd3cc0d7d4356a0bc2c0f69b0e160" Label="18211cea55594c5086188a081f1726fc" xmlns="http://www.ni.com/MocCommon">
 					<Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
 				</DataAccessor>
-				<NodeLabel AttachedTo="e796722a7e604f219d759c043feda80d" Bounds="570 160 91 14" Id="e61c46fbb5b649caaf641da4c41b8035" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>Temperatur inne</p.Text>
+				<NodeLabel AttachedTo="13dcd3cc0d7d4356a0bc2c0f69b0e160" Bounds="590 155 90 14" Id="18211cea55594c5086188a081f1726fc" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>temperatur inne</p.Text>
 				</NodeLabel>
 				<RightShiftRegister Bounds="781 210 13 10" Docking="Right" Id="c2b4920bb164449d86a4e7b5ac02f6d1" Terminals="abaaf9552832478591ad6e7a5f6c1204, 74d3fe2199554dd1b8a1c1e620ff751e=bc4788c7ac104f91958d3a2ace3f4d50" />
 				<LeftShiftRegister Bounds="-4 210 13 10" Docking="Left" Id="4887ba3587294adba184e9ae459d9654" RightRegister="c2b4920bb164449d86a4e7b5ac02f6d1" Terminals="o0=4bcaa8125f194f61b1891f32b62bb3d4, i0=bf1811de6a60491cbd6176526b957d9f" />
@@ -491,9 +491,9 @@
 			<Wire Id="f2952b49c84a4153a1455b72033a2315" Joints="N(a7a80a64757d4b56abb844598deb6ec0:Out)|(-100,350) v(10) N(cce56447af5249feb0cf4fc79873ea83:o0)|(-84,360)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
 		<HtmlFrontPanel Height="[float]832" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
-			<Slider BaseName="[string]Slider" Height="[float]152" Id="5955889597ec47b3ae5d4b12437070ef" Interval="[double]0.5" IsTabStop="[bool]True" Label="[UIModel]97d4eada796c48978e36b4404b48febc" LabelLinked="[bool]True" LabelPresenter="[string]LV:G6" Left="[float]436" Maximum="[double]23" Minimum="[double]15" Orientation="[SMOrientation]Vertical" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=f517ceefa5104f769ea91cc511199190}" Width="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="97d4eada796c48978e36b4404b48febc" LabelOwner="[UIModel]5955889597ec47b3ae5d4b12437070ef" Left="[float]436" Text="[string]Temperatur" Top="[float]80" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
-			<Chart DataSource="{DataItemBinding Id=4170f3d710ef464c9359e5fd9616ee28}" DataSourceType="[Type]Double" Height="[float]255" Id="7f963e94012641219d1065bafb0a3845" Label="[UIModel]a9641c9618c74efb889e0da59ac572da" Left="[float]25" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]1" Top="[float]36" Width="[float]385" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<Slider BaseName="[string]Slider" Height="[float]152" Id="5955889597ec47b3ae5d4b12437070ef" Interval="[double]0.5" IsTabStop="[bool]True" Label="[UIModel]97d4eada796c48978e36b4404b48febc" LabelLinked="[bool]True" LabelPresenter="[string]LV:G6" Left="[float]516" Maximum="[double]23" Minimum="[double]10" Orientation="[SMOrientation]Vertical" TabIndex="[int]0" Top="[float]164" Value="{DataItemBinding Id=f517ceefa5104f769ea91cc511199190}" Width="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="97d4eada796c48978e36b4404b48febc" LabelOwner="[UIModel]5955889597ec47b3ae5d4b12437070ef" Left="[float]516" Text="[string]Temperatur" Top="[float]144" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
+			<Chart DataSource="{DataItemBinding Id=4170f3d710ef464c9359e5fd9616ee28}" DataSourceType="[Type]Double" Height="[float]255" Id="7f963e94012641219d1065bafb0a3845" Label="[UIModel]a9641c9618c74efb889e0da59ac572da" Left="[float]20" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]1" Top="[float]132" Width="[float]385" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="2418cde14b43477eb81e12d9b9c68488" Label="[string]Time" MajorDivisions="[UIModel]1c83c4fb26de4e27a47a0adf96242965" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ValueType="[Type]Double">
 					<RangeLabeledDivisions Id="1c83c4fb26de4e27a47a0adf96242965">
 						<p.LabelPresenter Kind="LVRelativeSeconds" Format="G6" ShortFormat="0.000E+0" />
@@ -508,24 +508,24 @@
 					<PlotRenderer Id="5328e6beb3df4394a1260b333845ef96" LineStroke="[SMSolidColorBrush]#ff962428" LineThickness="[double]1" />
 				</Plot>
 			</Chart>
-			<ScaleLegend Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]70" Id="b3972b3e0554512ae7938fc27d34536" Left="[float]417" Top="[float]229" Visible="[bool]False" Width="[float]160" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<PlotLegend Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]28" Id="79e6ea58a1ee42c090f3c199110def8b" Left="[float]250" Top="[float]324" Width="[float]160" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<CursorLegend Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]200" Id="9b579024c8b4957acbb6623e5793679" Left="[float]25" Top="[float]340" Visible="[bool]False" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<GraphTools Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]35" Id="fdefa662b89b4124b2abf7bc6c119efa" Left="[float]25" Top="[float]298" Visible="[bool]False" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="a9641c9618c74efb889e0da59ac572da" LabelOwner="[UIModel]7f963e94012641219d1065bafb0a3845" Left="[float]25" Text="[string]temperatur graf " Top="[float]16" Width="[float]87" xmlns="http://www.ni.com/PanelCommon" />
-			<Switch BaseName="[string]Switch" FalseContent="[string]Av" Height="[float]40" Id="4c1d649d4af34ac3a2d0d063979e0c3d" Label="[UIModel]2f58b7e584154eb9a91f4cbe91843b4c" Left="[float]16" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]2" Top="[float]324" TrueContent="[string]På" Value="{DataItemBinding Id=d2e429dfcf8d40f38c5e9e445fad0112}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="2f58b7e584154eb9a91f4cbe91843b4c" LabelOwner="[UIModel]4c1d649d4af34ac3a2d0d063979e0c3d" Left="[float]16" Text="[string]Pause" Top="[float]304" Width="[float]31" xmlns="http://www.ni.com/PanelCommon" />
-			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]360" Id="c171d2ec38a94d65ac1ca4b8814c4bc3" Label="[UIModel]2eaff40ba74a41be8b01cddfe018be9a" Left="[float]16" Source="{DataItemBinding Id=40539cb39f424543a05a4893ff36136b}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]452" Width="[float]328" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="2eaff40ba74a41be8b01cddfe018be9a" LabelOwner="[UIModel]c171d2ec38a94d65ac1ca4b8814c4bc3" Left="[float]16" Text="[string]hus" Top="[float]432" Visible="[bool]False" Width="[float]19" xmlns="http://www.ni.com/PanelCommon" />
-			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]100" Id="4a3165443ff747bca23690148dac00df" Label="[UIModel]2125813a2bc4d2c86332b7da1b7598e" Left="[float]77" Source="{DataItemBinding Id=ded908a38e84492fb17ba54d81a6c8a8}" Stretch="[SMStretch]Uniform" TabIndex="[int]4" Top="[float]642" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]0" Id="2125813a2bc4d2c86332b7da1b7598e" LabelOwner="[UIModel]4a3165443ff747bca23690148dac00df" Left="[float]77" Text="[string]varme" Top="[float]622" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
-			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="d0477379fd84f1fbaa0099031b7ab59" IsReadOnly="[bool]True" Label="[UIModel]80ccba05557348669ce13838f2930e6f" Left="[float]84" TabIndex="[int]5" Top="[float]612" Value="{DataItemBinding Id=d13f7f6a7b024680b587e52203d59a32}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]16" Id="80ccba05557348669ce13838f2930e6f" LabelOwner="[UIModel]d0477379fd84f1fbaa0099031b7ab59" Left="[float]84" Text="[string]Temperatur inne" Top="[float]592" Width="[float]87" xmlns="http://www.ni.com/PanelCommon" />
+			<ScaleLegend Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]70" Id="b3972b3e0554512ae7938fc27d34536" Left="[float]412" Top="[float]325" Visible="[bool]False" Width="[float]160" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<PlotLegend Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]28" Id="79e6ea58a1ee42c090f3c199110def8b" Left="[float]245" Top="[float]420" Width="[float]160" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<CursorLegend Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]200" Id="9b579024c8b4957acbb6623e5793679" Left="[float]20" Top="[float]436" Visible="[bool]False" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<GraphTools Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]35" Id="fdefa662b89b4124b2abf7bc6c119efa" Left="[float]20" Top="[float]394" Visible="[bool]False" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="a9641c9618c74efb889e0da59ac572da" LabelOwner="[UIModel]7f963e94012641219d1065bafb0a3845" Left="[float]20" Text="[string]Chart" Top="[float]112" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
+			<Switch BaseName="[string]Switch" FalseContent="[string]Av" Height="[float]40" Id="4c1d649d4af34ac3a2d0d063979e0c3d" Label="[UIModel]2f58b7e584154eb9a91f4cbe91843b4c" Left="[float]420" Orientation="[SMOrientation]Horizontal" Shape="[SwitchShape]Slider" TabIndex="[int]2" Top="[float]244" TrueContent="[string]På" Value="{DataItemBinding Id=d2e429dfcf8d40f38c5e9e445fad0112}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="2f58b7e584154eb9a91f4cbe91843b4c" LabelOwner="[UIModel]4c1d649d4af34ac3a2d0d063979e0c3d" Left="[float]420" Text="[string]Pause" Top="[float]224" Width="[float]31" xmlns="http://www.ni.com/PanelCommon" />
+			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]360" Id="c171d2ec38a94d65ac1ca4b8814c4bc3" Label="[UIModel]2eaff40ba74a41be8b01cddfe018be9a" Left="[float]4" Source="{DataItemBinding Id=40539cb39f424543a05a4893ff36136b}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]452" Width="[float]328" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="2eaff40ba74a41be8b01cddfe018be9a" LabelOwner="[UIModel]c171d2ec38a94d65ac1ca4b8814c4bc3" Left="[float]4" Text="[string]hus" Top="[float]432" Visible="[bool]False" Width="[float]19" xmlns="http://www.ni.com/PanelCommon" />
+			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]100" Id="4a3165443ff747bca23690148dac00df" Label="[UIModel]2125813a2bc4d2c86332b7da1b7598e" Left="[float]68" Source="{DataItemBinding Id=ded908a38e84492fb17ba54d81a6c8a8}" Stretch="[SMStretch]Uniform" TabIndex="[int]4" Top="[float]644" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]0" Id="2125813a2bc4d2c86332b7da1b7598e" LabelOwner="[UIModel]4a3165443ff747bca23690148dac00df" Left="[float]68" Text="[string]varme" Top="[float]624" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="af586b1ccdc2435d8cb033cbf76d71bd" IsReadOnly="[bool]True" Label="[UIModel]645c9ce2c6bc45639a41cac5a2a532eb" Left="[float]68" TabIndex="[int]5" Top="[float]628" Value="{DataItemBinding Id=4306d698ce0c479eb679e4800dd89500}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Height="[float]16" Id="645c9ce2c6bc45639a41cac5a2a532eb" LabelOwner="[UIModel]af586b1ccdc2435d8cb033cbf76d71bd" Left="[float]68" Text="[string]temperatur inne" Top="[float]608" Width="[float]86" xmlns="http://www.ni.com/PanelCommon" />
 		</HtmlFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Double" Id="f517ceefa5104f769ea91cc511199190" Name="Temperatur" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" BufferSize="1024" DataType="Double" Id="4170f3d710ef464c9359e5fd9616ee28" Name="&quot;temperatur graf &quot;" xmlns="http://www.ni.com/MocCommon" />
+		<DataItem AdaptToDiagramType="True" BufferSize="1024" DataType="Double" Id="4170f3d710ef464c9359e5fd9616ee28" Name="Chart" xmlns="http://www.ni.com/MocCommon" />
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="d2e429dfcf8d40f38c5e9e445fad0112" Name="Pause" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
 		</DataItem>
@@ -535,7 +535,7 @@
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="ded908a38e84492fb17ba54d81a6c8a8" Name="varme" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>images/varme.png</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Double" Id="d13f7f6a7b024680b587e52203d59a32" Name="Temperatur inne" xmlns="http://www.ni.com/MocCommon">
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="4306d698ce0c479eb679e4800dd89500" Name="temperatur inne" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0x0</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
