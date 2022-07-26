@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A4604ABA718A4DA012335853000E7DFD0DAE8BFF05337587A54E357C29BB5ADF37982CB3291282DBA5FC6CFB5B9770A0D1A5F192AC09A1C07807B03BEF9CBBBD" Timestamp="1D8945D321989C7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="77AF34A6734DEB77D79620141C4AD857910B4C93A2987768DF5B4DEC8BE06D7C1738CD49A51DF881973E80D89D02741E8CE2D60D6595F407F9E00A23857B7E8C" Timestamp="1D8A128EB0E2BC7" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -490,7 +490,7 @@
 			</Literal>
 			<Wire Id="f2952b49c84a4153a1455b72033a2315" Joints="N(a7a80a64757d4b56abb844598deb6ec0:Out)|(-100,350) v(10) N(cce56447af5249feb0cf4fc79873ea83:o0)|(-84,360)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
-		<HtmlFrontPanel Height="[float]832" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+		<HtmlFrontPanel Background="[SMSolidColorBrush]#ffe0e0e0" Height="[float]832" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
 			<Slider BaseName="[string]Slider" Height="[float]152" Id="5955889597ec47b3ae5d4b12437070ef" Interval="[double]0.5" IsTabStop="[bool]True" Label="[UIModel]97d4eada796c48978e36b4404b48febc" LabelLinked="[bool]True" LabelPresenter="[string]LV:G6" Left="[float]516" Maximum="[double]23" Minimum="[double]10" Orientation="[SMOrientation]Vertical" TabIndex="[int]0" Top="[float]164" Value="{DataItemBinding Id=f517ceefa5104f769ea91cc511199190}" Width="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="97d4eada796c48978e36b4404b48febc" LabelOwner="[UIModel]5955889597ec47b3ae5d4b12437070ef" Left="[float]516" Text="[string]Temperatur" Top="[float]144" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
 			<Chart DataSource="{DataItemBinding Id=4170f3d710ef464c9359e5fd9616ee28}" DataSourceType="[Type]Double" Height="[float]255" Id="7f963e94012641219d1065bafb0a3845" Label="[UIModel]a9641c9618c74efb889e0da59ac572da" Left="[float]20" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]1" Top="[float]132" Width="[float]385" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
@@ -509,7 +509,7 @@
 				</Plot>
 			</Chart>
 			<ScaleLegend Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]70" Id="b3972b3e0554512ae7938fc27d34536" Left="[float]412" Top="[float]325" Visible="[bool]False" Width="[float]160" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<PlotLegend Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]28" Id="79e6ea58a1ee42c090f3c199110def8b" Left="[float]245" Top="[float]420" Width="[float]160" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<PlotLegend Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]28" Id="79e6ea58a1ee42c090f3c199110def8b" Left="[float]404" Top="[float]420" Width="[float]160" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<CursorLegend Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]200" Id="9b579024c8b4957acbb6623e5793679" Left="[float]20" Top="[float]436" Visible="[bool]False" Width="[float]320" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<GraphTools Graph="[UIModel]7f963e94012641219d1065bafb0a3845" Height="[float]35" Id="fdefa662b89b4124b2abf7bc6c119efa" Left="[float]20" Top="[float]394" Visible="[bool]False" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="a9641c9618c74efb889e0da59ac572da" LabelOwner="[UIModel]7f963e94012641219d1065bafb0a3845" Left="[float]20" Text="[string]Chart" Top="[float]112" Width="[float]29" xmlns="http://www.ni.com/PanelCommon" />
@@ -518,7 +518,7 @@
 			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]360" Id="c171d2ec38a94d65ac1ca4b8814c4bc3" Label="[UIModel]2eaff40ba74a41be8b01cddfe018be9a" Left="[float]4" Source="{DataItemBinding Id=40539cb39f424543a05a4893ff36136b}" Stretch="[SMStretch]Uniform" TabIndex="[int]3" Top="[float]452" Width="[float]328" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="2eaff40ba74a41be8b01cddfe018be9a" LabelOwner="[UIModel]c171d2ec38a94d65ac1ca4b8814c4bc3" Left="[float]4" Text="[string]hus" Top="[float]432" Visible="[bool]False" Width="[float]19" xmlns="http://www.ni.com/PanelCommon" />
 			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]100" Id="4a3165443ff747bca23690148dac00df" Label="[UIModel]2125813a2bc4d2c86332b7da1b7598e" Left="[float]68" Source="{DataItemBinding Id=ded908a38e84492fb17ba54d81a6c8a8}" Stretch="[SMStretch]Uniform" TabIndex="[int]4" Top="[float]644" Width="[float]100" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<Label Height="[float]0" Id="2125813a2bc4d2c86332b7da1b7598e" LabelOwner="[UIModel]4a3165443ff747bca23690148dac00df" Left="[float]68" Text="[string]varme" Top="[float]624" Visible="[bool]False" Width="[float]0" xmlns="http://www.ni.com/PanelCommon" />
+			<Label Height="[float]16" Id="2125813a2bc4d2c86332b7da1b7598e" LabelOwner="[UIModel]4a3165443ff747bca23690148dac00df" Left="[float]68" Text="[string]varme" Top="[float]624" Visible="[bool]False" Width="[float]33" xmlns="http://www.ni.com/PanelCommon" />
 			<NumericText BaseName="[string]Numeric" Height="[float]24" Id="af586b1ccdc2435d8cb033cbf76d71bd" IsReadOnly="[bool]True" Label="[UIModel]645c9ce2c6bc45639a41cac5a2a532eb" Left="[float]68" TabIndex="[int]5" Top="[float]628" Value="{DataItemBinding Id=4306d698ce0c479eb679e4800dd89500}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="645c9ce2c6bc45639a41cac5a2a532eb" LabelOwner="[UIModel]af586b1ccdc2435d8cb033cbf76d71bd" Left="[float]68" Text="[string]temperatur inne" Top="[float]608" Width="[float]86" xmlns="http://www.ni.com/PanelCommon" />
 		</HtmlFrontPanel>
