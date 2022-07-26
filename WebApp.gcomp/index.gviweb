@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="77AF34A6734DEB77D79620141C4AD857910B4C93A2987768DF5B4DEC8BE06D7C1738CD49A51DF881973E80D89D02741E8CE2D60D6595F407F9E00A23857B7E8C" Timestamp="1D8A128EB0E2BC7" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="943ECC83168BE0323FBD911EB370A7E8AC1D801AB5D2D8EDC0DF27CD3A2286449C13FFD6D860EB6EC1C5C8F20EE39541BB86ECD91F9B13D2ABA828ED4404B08C" Timestamp="1D8A12B6F9224F6" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.3.0.49613" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -490,7 +490,7 @@
 			</Literal>
 			<Wire Id="f2952b49c84a4153a1455b72033a2315" Joints="N(a7a80a64757d4b56abb844598deb6ec0:Out)|(-100,350) v(10) N(cce56447af5249feb0cf4fc79873ea83:o0)|(-84,360)" xmlns="http://www.ni.com/PlatformFramework" />
 		</BlockDiagram>
-		<HtmlFrontPanel Background="[SMSolidColorBrush]#ffe0e0e0" Height="[float]832" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+		<HtmlFrontPanel Background="[SMSolidColorBrush]#ffee1c25" Height="[float]832" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
 			<Slider BaseName="[string]Slider" Height="[float]152" Id="5955889597ec47b3ae5d4b12437070ef" Interval="[double]0.5" IsTabStop="[bool]True" Label="[UIModel]97d4eada796c48978e36b4404b48febc" LabelLinked="[bool]True" LabelPresenter="[string]LV:G6" Left="[float]516" Maximum="[double]23" Minimum="[double]10" Orientation="[SMOrientation]Vertical" TabIndex="[int]0" Top="[float]164" Value="{DataItemBinding Id=f517ceefa5104f769ea91cc511199190}" Width="[float]56" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]16" Id="97d4eada796c48978e36b4404b48febc" LabelOwner="[UIModel]5955889597ec47b3ae5d4b12437070ef" Left="[float]516" Text="[string]Temperatur" Top="[float]144" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
 			<Chart DataSource="{DataItemBinding Id=4170f3d710ef464c9359e5fd9616ee28}" DataSourceType="[Type]Double" Height="[float]255" Id="7f963e94012641219d1065bafb0a3845" Label="[UIModel]a9641c9618c74efb889e0da59ac572da" Left="[float]20" MetadataAlwaysOverridesPlotNames="[bool]True" TabIndex="[int]1" Top="[float]132" Width="[float]385" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
